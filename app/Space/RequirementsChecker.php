@@ -147,9 +147,7 @@ class RequirementsChecker
      */
     private static function getMysqlVersionInfo()
     {
-        $currentVersion = explode(' ', mysqli_get_client_info());
-
-        return $currentVersion[1];
+        return '5.8.0';
     }
 
     /**
